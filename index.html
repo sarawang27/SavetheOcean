@@ -2,58 +2,48 @@
 <html>
 <head>
 <title>Save the Ocean </title>
-<title>Thingy</title>
-<img class="mySlides" src="https://hydratem8.co.uk/wp-content/uploads/2018/01/save-our-oceans.jpg">
-<img class="mySlides" src="https://cdn-images-1.medium.com/max/1600/1*Xez9AgQXVafPB5yBTUp6KQ.jpeg">
-<img class="mySlides" src="https://assets.weforum.org/article/image/large_TAQQ9OGpw4L1v-tmq6myVgf1a8gfitZXhB5M90Qz12c.jpg">
-<img class="mySlides" src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/assets/2019/03/2019-03-01-whale-shark-wildlife-UNDP.jpg/image1170x530cropped.jpg">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<link rel="stylesheet" href="<title>Thing</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
-<link rel="stylesheet" href="style.css">
-<style>
-.mySlides {display:none;}
-</style>
-<style>
-.mySlides {display:none;}
-</style>
+
 </head>
-<style>
-<html>
 <body>
-<h2 class="w3-center">Automatic Slideshow</h2>
-
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="img_la.jpg" style="width:100%">
-  <img class="mySlides" src="img_ny.jpg" style="width:100%">
-  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
-</div>
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="img_la.jpg" style="width: 100%; display: none;">
-  <img class="mySlides" src="img_ny.jpg" style="width: 100%; display: none;">
-  <img class="mySlides" src="img_chicago.jpg" style="width: 100%; display: block;">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   </div>
 </div>
 </body>
 </html>
 </style>
+<h2 class="w3-center">Manual Slideshow</h2>
+ 
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://i.pinimg.com/originals/fe/36/7a/fe367af226e203c0efc4c6b1126007a7.jpg" style="width:100%">
+  <img class="mySlides" src="https://dingo.care2.com/pictures/petition_images/petition/561/953639-1468013506-wide.jpg" style="width:100%">
+  <img class="mySlides" src="https://dingo.care2.com/pictures/petition_images/petition/928/898758-1399037196-wide.jpg" style="width:100%">
+  <img class="mySlides" src="https://asset-manager.bbcchannels.com/i/2fhx90go08c1000" style="width:100%">
+  <img class="mySlides" src="https://ci5.googleusercontent.com/proxy/xyMQYo5bwpIuomyHWZztgEWLxCH_vhbN5gL6XIAIWTm4HXCG0_tUuM9vYlDXfoz3-pYq-F_iuOoZ_VpO97NrpDZt3ffXUrHJcGUwMUaRSZ_L_DEZ0HeP6ebb1kWO7oUxi5upcFihrb9gl4wAXyymZ6g1AT3H=s0-d-e1-ft" style="width:100%">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+ 
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+ 
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+ 
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+ 
 <h1 style=" font-size: 40px; text-align:left; line-height:150%; margin:0px; color:#000000; clear:both;">Save the Ocean </h1>
  <p style="font-family: 'Century Gothic', 'MS Sans Serif', arial; font-size: 15px; text-align:left; line-height:100%; margin:0px; color:#000000; clear:both;">
 This is  website for ocean facts and acts <p>
