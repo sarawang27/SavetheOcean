@@ -1,0 +1,46 @@
+j = "a"
+i = "b"
+n = "c"
+c = "d"
+print("Hello homo sapien, what is your name?")
+o = input()
+print("Hello, I am a creature of the deep ocean, mommyland. You humans have damaged the ocean for too long. Now we shall strike back. The fate of your world lies on this test. Today you will take a test on how much information you have on the ocean. At the end of this, I hope you will be inspired to contribute to saving the ocean.")
+
+print("1) How much of the earth does the ocean cover?")
+print(j, "70%")
+print(i, "36%")
+print(n, "84%")
+print(c, "13%")
+
+#fill in the blanks and true or false questions REMEMBER THE BOOLEANS, maybe essays
+
+a = str(input())
+if a in ['a', "A"]:
+    print("Good job you are one step closer to candy I mean learning more about the ocean.")
+else:
+  print('WRONG, this is only the beginning muahha')
+
+print("Hey", o, "approximately, how deep is Challenger Deep (The deepest point in the ocean)?")
+print(j, "27400 ft")
+print(i, "36200 ft")
+print(n, "200 miles")
+print(c, "The place doesn't exist")
+u = str(input())
+if a in ['b', "B"]:
+    print("Good job",o,"you are one step closer to learning more about the ocean and saving your brethren.")
+else:
+  print('WRONG, go eat some brain food and browse wikipedia.')
+#make the fill in blank q a be sPACIFIC then say You think that was bad? You haven't SEAn anything water you doing What did the sea say to the sand? Nothing, it simply waved.
+print("Good job, you've made it this far! But you haven't SEAn anything yet. Haha since it's an ocean quiz hahaha.")
+print(j, "Wow, you're so funny hahaha Yes I will do whatever I can to save the ocean now")
+print(i, "I highly respect you, your highness. I will now proceed to do everything in my power ")
+print(n, "No, you and your puns suck, mommyland >:(")
+if u in ['a', 'A']:
+  print('Thanks did you know that Less than five percent of the planets oceans have been explored')
+elif u in ['b', "B"]:
+  print("yes now did you know that an ocean is a body of saline water that composes much of a planet's hydrosphere")
+else:
+  print('Wow rude did you know the oceans hold about 96.5% of all of Earth’s water and is one of the most amazing places on earth')
+
+print("Good job you completed the quiz reeeeeeeeeeeeeeeeeeeeeeee")
+
